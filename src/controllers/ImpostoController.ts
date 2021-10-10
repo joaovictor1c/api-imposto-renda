@@ -43,7 +43,7 @@ class ImpostoController {
       valorTotal
     });
 
-    return response.json(responseImposto);
+    return response.json({valorISS: responseImposto, percentualISS: "5%"});
   }
 }
 

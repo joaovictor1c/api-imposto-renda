@@ -9,7 +9,7 @@ const impostoController = new ImpostoController();
 router.post("/imposto/renda/fonte", impostoController.impostoNaFonte);
 
 router.post("/imposto/renda/anual", impostoController.impostoAnual);
-//router.post("/imposto/gasolina", impostoController.handle);
+router.post("/imposto/iss/ti", impostoController.impostoIss);
 
 
 export { router };
